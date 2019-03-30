@@ -2,7 +2,7 @@
 
 Simple oneline compose function
 
-<img alt="curri.js" src="https://cdn.rawgit.com/GianlucaGuarini/cumpa/master/cumpa.gif" width="50%"/>
+<img alt="cumpa" src="https://raw.githack.com/GianlucaGuarini/cumpa/master/cumpa.gif" width="50%"/>
 
 > `cumpá` in some Italian :it: dialects means `fellow`
 
