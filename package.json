@@ -1,6 +1,6 @@
 {
   "name": "cumpa",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Minimal function composition implementation",
   "main": "cumpa.js",
   "jsnext:main": "index.next.js",
