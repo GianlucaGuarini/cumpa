@@ -21,8 +21,10 @@
     "url": "git+https://github.com/GianlucaGuarini/cumpa.git"
   },
   "keywords": [
-    "es6",
-    "es2015"
+    "flowRight",
+    "functional",
+    "compose",
+    "compose-right"
   ],
   "author": "Gianluca Guarini <gianluca.guarini@gmail.com> (http://gianlucaguarini.com)",
   "license": "MIT",
