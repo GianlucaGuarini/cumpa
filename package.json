@@ -1,0 +1,40 @@
+{
+  "name": "cumpa",
+  "version": "0.0.0",
+  "description": "Simple oneline copose function",
+  "main": "cumpa.js",
+  "jsnext:main": "index.next.js",
+  "module": "index.next.js",
+  "scripts": {
+    "prepare": "npm run build && npm test",
+    "lint": "eslint index.next.js test.js rollup.config.js",
+    "build": "rollup -c",
+    "doc": "documentation readme index.next.js -s API",
+    "pretest": "npm run build",
+    "test": "npm run lint && mocha test.js"
+  },
+  "files": [
+    "index.next.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GianlucaGuarini/cumpa.git"
+  },
+  "keywords": [
+    "es6",
+    "es2015"
+  ],
+  "author": "Gianluca Guarini <gianluca.guarini@gmail.com> (http://gianlucaguarini.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GianlucaGuarini/cumpa/issues"
+  },
+  "homepage": "https://github.com/GianlucaGuarini/cumpa#readme",
+  "devDependencies": {
+    "@gianlucaguarini/eslint-config": "^2.0.0",
+    "eslint": "^5.16.0",
+    "mocha": "^6.0.2",
+    "rollup": "^1.7.4",
+    "rollup-plugin-node-resolve": "^4.0.1"
+  }
+}
