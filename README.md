@@ -1,6 +1,6 @@
 # cumpa
 
-Simple oneline compose function
+Minimal function composition implementation
 
 <img alt="cumpa" src="./cumpa.gif" width="50%"/>
 
