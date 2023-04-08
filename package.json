@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "type": "module",
   "description": "Minimal function composition implementation",
-  "main": "index.cjs",
+  "main": "index.js",
   "module": "index.js",
   "exports": {
     "types": "./index.d.ts",
@@ -19,7 +19,9 @@
     "test": "npm run lint && npm run test-types && mocha test.js"
   },
   "files": [
-    "index.next.js"
+    "index.d.ts",
+    "index.cjs",
+    "index.js"
   ],
   "repository": {
     "type": "git",
