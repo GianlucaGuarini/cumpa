@@ -33,8 +33,15 @@ jspm_packages
 # Optional npm cache directory
 .npm
 
+# Editor files
+.idea
+
 # Optional REPL history
 .node_repl_history
 
 # mac useless file
 .DS_Store
+
+# generated files
+index.js
+index.cjs

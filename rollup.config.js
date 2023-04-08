@@ -10,8 +10,13 @@ export default {
   output: [
     {
       name: 'cumpa',
-      file: 'cumpa.js',
+      file: 'index.cjs',
       format: 'umd'
+    },
+    {
+      name: 'cumpa',
+      file: 'index.js',
+      format: 'esm'
     }
   ]
 }

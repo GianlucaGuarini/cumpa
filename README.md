@@ -6,7 +6,7 @@ Minimal function composition implementation
 
 > `cumpá` in some Italian :it: dialects means `fellow`
 
-[![Build Status][travis-image]][travis-url]
+[![Build Status][ci-image]][ci-url]
 
 [![NPM version][npm-version-image]][npm-url]
 [![NPM downloads][npm-downloads-image]][npm-url]
@@ -25,9 +25,8 @@ const add2AndMultiplyBy3 = compose(multiplyBy3, add2)
 console.log(add2AndMultiplyBy3(1)) // ((1 + 2) * 3) = 9
 ```
 
-[travis-image]: https://img.shields.io/travis/GianlucaGuarini/cumpa.svg?style=flat-square
-
-[travis-url]: https://travis-ci.org/GianlucaGuarini/cumpa
+[ci-image]: https://img.shields.io/github/actions/workflow/status/gianlucaguarini/cumpa/test.yml?style=flat-square
+[ci-url]: https://github.com/gianlucaguarini/cumpa/actions
 
 [license-image]: http://img.shields.io/badge/license-MIT-000000.svg?style=flat-square
 
